@@ -1,4 +1,4 @@
-# Documenu 
+# Documenu API Docs
  
 ## Endpoint
  The endpoint for the API is :
