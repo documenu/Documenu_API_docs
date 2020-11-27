@@ -4,7 +4,7 @@
  The endpoint for the API is :
 
 
-`https://api.documenu.xyz/api`
+`https://api.documenu.xyz/v2`
 
 ## Authentication
 
@@ -20,7 +20,7 @@ There are two options for Authentication
 
 >Or As an URL Query Parameter
 ```
-https://api.documenu.xyz/api/restaurant/4072702673999819?key=YOUR_API_KEY_GOES_HERE
+https://api.documenu.xyz/v2/restaurant/4072702673999819?key=YOUR_API_KEY_GOES_HERE
 ```
 
 
@@ -43,7 +43,7 @@ Get Single Restaurant
 
 > Example:
 ```
-https://api.documenu.xyz/api/restaurant/4072702673999819
+https://api.documenu.xyz/v2/restaurant/4072702673999819
 ```
 
 
@@ -69,7 +69,7 @@ Search Function using location and search radius. Returns list of restaurants so
 
 > Example:
 ```
-https://api.documenu.xyz/api/restaurants/search/geo?lat=40.688072&lon=-73.997385&distance=1&fullmenu
+https://api.documenu.xyz/v2/restaurants/search/geo?lat=40.688072&lon=-73.997385&distance=1&fullmenu
 ```
 
 
@@ -91,7 +91,7 @@ Search Function Returns Restaurants By State Code
 
 > Example:
 ```
-https://api.documenu.xyz/api/restaurants/state/NY?fullmenu
+https://api.documenu.xyz/v2/restaurants/state/NY?fullmenu
 ```
 
 
@@ -112,7 +112,7 @@ Search Function Returns Restaurants By Zip Code
 
 > Example:
 ```
-https://api.documenu.xyz/api/restaurants/zip_code/11211?size=100&page=2
+https://api.documenu.xyz/v2/restaurants/zip_code/11211?size=100&page=2
 ```
 
 
@@ -139,7 +139,7 @@ Search Function using Geobounding Box. Returns list of restaurants inside GeoBou
 > Example:
 
 ```
-https://api.documenu.xyz/api/restaurants/geobbox?top_left=40.7636412,-74.016265&bottom_right=40.706929,-73.96682
+https://api.documenu.xyz/v2/restaurants/geobbox?top_left=40.7636412,-74.016265&bottom_right=40.706929,-73.96682
 ```
 
 
@@ -166,6 +166,6 @@ Search Function using mode of transport and minutes to return list of restaurant
 
 > Example:
 ```
-https://api.documenu.xyz/api/restaurants/istance?lat=40.688072&lon=-73.997385&minutes=5&mode=driving&fullmenu
+https://api.documenu.xyz/v2/restaurants/istance?lat=40.688072&lon=-73.997385&minutes=5&mode=driving&fullmenu
 ```
 
