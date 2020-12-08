@@ -61,6 +61,7 @@ Search Function using location and search radius. Returns list of restaurants so
 | **`lat`** | Latitude of search area   | **number** | **`false` **|`40.68919  ` |
 | **`lon`** | Longitude of search area   | **number** | **`false` **|`-73.992378` |
 | **`distance`** | Search Area radius (in miles)   | **number** | **`false` **|`5` |
+| **`cuisine`** | Cuisine To Search For   | **string** | **`false` **|`italian` | N/A|
 | **`size`** | Data Size of Results   | **number** | **`false` **|`30` | `25` or `10`|
 | **`page`** | Page Through Results  | **number** | **`false` **|`2` | `1`|
 | **`fullmenu`** | include full menus | **number** | **`false` **|`317120` | `false` |
